@@ -1,0 +1,36 @@
+#para1{
+    background-color: mediumaquamarine;
+    padding: 10px;
+    position: static;
+    top: 100px;
+    right: 100px;
+}
+#para2{
+    background-color: red;
+    padding: 10px;
+    position: relative;
+    top: 200px;
+}
+#para3{
+    background-color: mediumblue;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    z-index: -1; /* Sends Para3 in back of para1*/
+}
+/* z index works with position property send*/
+body{
+    height: 2000px;
+}
+div{
+    background-color: mediumaquamarine;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+a:visited{
+    color: red;
+}
+i:hover{
+    color: red;
+}

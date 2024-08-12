@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        --primarycolor: red;
+        color: var(--primarycolor);
+    }
+    /*Pseudo Elements*/
+    h1::after{
+        content: '🚀';
+    }
+    h1::first-letter{
+         color: blue;
+    }
+    p::first-line{
+         color: mediumslateblue;
+    }
+    ::selection{
+        color: blue;
+        background-color: mediumaquamarine;
+    }
+</style>
+<body>
+    <h1>Techno</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum blanditiis ex accusamus soluta molestias, iusto temporibus quam dicta ullam facilis ad explicabo dolorum porro minima minus tenetur provident sapiente voluptatem</p>
+</body>
+</html>

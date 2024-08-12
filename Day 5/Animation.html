@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primarycolor: rgb(245 , 85 , 255);
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        div{
+            width: 40px;
+            height: 40px;
+            background-color: rgb(85 , 85 , 255);
+            border-radius: 50%;
+            animation-name: scale;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        /*Global Variable*/
+        @keyframes scale{
+            0%{
+                transform: scale(1);
+                opacity: 1;
+            }
+            100%{
+                transform: scale(1.6);
+                opacity: .6;
+            }
+        }
+            h1{
+                --primarycolor: red;
+                color : var(--primarycolor);
+            }
+    </style>
+</head>
+<body>
+    <div></div>
+    <h1>Techno</h1>
+</body>
+</html>
