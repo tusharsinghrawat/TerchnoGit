@@ -22,7 +22,7 @@ console.log(department)
 
 //NOTE - LET
 //NOTE in the case of let we can reassign its value but cannot declare it
-let college = 'TECHNO' ;
+let collegee = 'TECHNO' ;
 college = 'MNIT' ;
 console.log(college) ;
 
@@ -60,7 +60,7 @@ const college = 'Techno' ;
 const fulldetails = 'my' + '' + 'name' + '' + 'is' + '' + firstNamee
 console.log(fulldetails)
  //NOTE`Writing using template String ;
- const myDetails = my name is ${firstnamee} ;
+ const myDetails = mynameis${firstnamee};
  console.log(myDetails)
 
  //NOTE TRUTHY AND FALSY VALUES
